@@ -14,13 +14,12 @@ namespace Project
             public string FirstName{get; set;}
             public string LastName{get; set;}
             public string MiddleName{get; set;}
-            public string BirthYear{get; set;}
             public int StudId{get; set;}
-
-            public int CourseId{get; set;}
-            public string Course{get; set;}
-
-
+            public int CourseId{get; set;} // код предмета
+            public string Course{get; set;} // предмет
+            public int Point{get; set;} //оценка
+            
+            
         }
     }
 }
